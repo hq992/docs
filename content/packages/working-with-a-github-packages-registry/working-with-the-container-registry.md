@@ -1,4 +1,6 @@
----
+$ echo 'const foo: string = 'World'; console.log(`Hello ${foo}!`);' > file.ts
+$ node file.ts
+Hello World!---
 title: Working with the Container registry
 intro: 'You can store and manage Docker and OCI images in the {% data variables.product.prodname_container_registry %}.'
 product: '{% data reusables.gated-features.packages %}'
